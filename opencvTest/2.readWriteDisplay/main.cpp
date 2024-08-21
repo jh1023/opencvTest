@@ -3,9 +3,9 @@
 
 int main() {
 	// 이미지 읽기
-	cv::Mat img_color = cv::imread("Lenna.png", cv::IMREAD_COLOR);
-	cv::Mat img_grayscale = cv::imread("Lenna.png", cv::IMREAD_GRAYSCALE);
-	cv::Mat img_unchanged = cv::imread("Lenna.png", cv::IMREAD_UNCHANGED);
+	cv::Mat img_color = cv::imread("../../useImage/Lenna.png", cv::IMREAD_COLOR);
+	cv::Mat img_grayscale = cv::imread("../../useImage/Lenna.png", cv::IMREAD_GRAYSCALE);
+	cv::Mat img_unchanged = cv::imread("../../useImage/Lenna.png", cv::IMREAD_UNCHANGED);
 
 	// 이미지 표시
 	// Create a window.

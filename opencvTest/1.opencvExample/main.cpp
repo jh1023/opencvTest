@@ -3,7 +3,7 @@
 
 int main() {
 	// read image
-	cv::Mat image = cv::imread("Lenna.png");
+	cv::Mat image = cv::imread("../../useImage/Lenna.png");
 	if (image.empty()){
 		std::cout << "Could not read image" << std::endl;
 	}
